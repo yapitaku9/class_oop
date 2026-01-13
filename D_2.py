@@ -1,3 +1,5 @@
+import math
+
 class Rectangle:
     def __init__(self, height, width):
         self.height = height
@@ -8,7 +10,7 @@ class Rectangle:
         return self.area
 
     def diagonal(self):
-        self.diagonal = f"{(self.height ** 2 + self.width ** 2) ** 0.5:.2f}"
+        self.diagonal = f"{math.sqrt((self.height ** 2 + self.width ** 2)):.2f}"
         return self.diagonal
 
 
