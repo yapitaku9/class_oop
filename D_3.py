@@ -1,4 +1,5 @@
 import math
+from operator import getitem
 
 
 class Square:
@@ -21,3 +22,5 @@ print(square1.diagonal())  # 2.12
 square2 = Square(side=15)
 print(square2.area())  # 225
 print(square2.diagonal())  # 21.21
+
+get
